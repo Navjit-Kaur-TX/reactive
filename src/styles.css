@@ -1,0 +1,46 @@
+You can add global styles to this file, and also import other style files
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.card {
+  border: 2px solid black;
+  height: 100%;
+  padding: 20px;
+  border-radius: 23px;
+  padding-bottom: 70px;
+  width: 350px;
+  background-color: aquamarine;
+  box-shadow: 15px 15px 12px;
+}
+
+input {
+  border-radius: 7px;
+  height: 20px;
+  padding: 5px;
+  width: 225px;
+}
+
+h2 {
+  padding-left: 5px;
+}
+
+.text-danger {
+  color: red;
+  padding-left: 5px;
+  padding-left: 170px;
+}
+
+button {
+  margin-left: auto;
+  width: 35%;
+  height: 30px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

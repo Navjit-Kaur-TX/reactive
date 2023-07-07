@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  font-size:22px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  text-align: -webkit-center;
+  font-size: 65px;
+}
